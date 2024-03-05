@@ -81,6 +81,10 @@ main {
     flex-direction: column;
     letter-spacing: 3px;
 }
+#h55 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
 .content0text {
     display: flex;
     flex-wrap: wrap;
