@@ -202,7 +202,24 @@ main {
     flex-wrap: wrap;
     
 }
+.name {
+    margin: 0 auto;
+    width: 50%;
+}
+.email {
+    margin: 0 auto;
+    width: 50%;
+}
+.phone {
+    margin: 0 auto;
+    width: 50%;
+}
+.info {
+    margin: 0 auto;
+    width: 70%;
+}
 input, textarea {
+    
     width: 100%;
     padding: 10px;
     margin: 5px;
@@ -227,6 +244,9 @@ input, textarea {
     color: white;
 }
 #buttonsend {
+    font-family: "Bebas";
+}
+#sendbutton {
     font-family: "Bebas";
 }
 .buttonsend:hover {
