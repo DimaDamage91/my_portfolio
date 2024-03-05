@@ -23,6 +23,10 @@ body {
     font-family: "Nanum";
     src: url(./Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf) format("woff2");
 }
+@font-face {
+    font-family: "Star";
+    src: url(./Starwars/star-wars.ttf) format("woff2");
+}
 
 header {
     display: flex;
@@ -38,7 +42,7 @@ header {
 }
 .headercontent2 {
     z-index: 2;
-    font-family: "Bebas";
+    font-family: "Star";
     letter-spacing: 2px;
     margin-top: 4%;
     padding-right: 10px;
@@ -75,8 +79,7 @@ main {
     color: white;
     font-size: 2.3rem;
     padding-left: 10px;
-    font-family: "Kdam";
-    
+    font-family: "Star";
     display: flex;
     flex-direction: column;
     letter-spacing: 3px;
@@ -112,7 +115,7 @@ main {
     color: white;
     margin-top: 500px;
     letter-spacing: 2px;
-    font-family: "Kdam";
+    font-family: "Star";
     padding-left: 10px;
     
 }
@@ -183,15 +186,14 @@ main {
 .content2 a {
     font-size: 20px;
     letter-spacing: 2px;
-    font-family: "Bebas";
+    font-family: "Star";
 }
 .content2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 400px;
-    font-family: "Kdam";
-    
+    font-family: "Star";
     color: white;
 }
 .content2 section {
@@ -221,8 +223,11 @@ input, textarea {
     text-shadow: none;
     margin-top: 15px;
     font-size: 20px;
-    font-family: "Bebas";
+    
     color: white;
+}
+#buttonsend {
+    font-family: "Bebas";
 }
 .buttonsend:hover {
     cursor: pointer;
