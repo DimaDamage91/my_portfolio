@@ -29,14 +29,14 @@ main h1 {
     color: white;
     font-family: "Kdam";
     letter-spacing: 1px;
-    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.28);
+    
 }
 .text {
     padding-top: 40px;
     display: flex;
     flex-direction: column;
     color: white;
-    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.28);
+    
 }
 
 .text div {
@@ -80,8 +80,5 @@ ul li {
 ul {
     margin: 0;
     padding: 0;
-    
-}
-.skills img {
     
 }

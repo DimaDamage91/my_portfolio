@@ -47,13 +47,13 @@ header {
 
 .headercontent1 img {
     width: 3.8rem;
-    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.28);
+    
 }
 .headercontent2 a {
     font-size: 1.4rem;
     text-decoration: none;
     color: #cea2fd;
-    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.41);
+    
 } 
 .headercontent2 a:hover {
     color: white;
@@ -76,7 +76,7 @@ main {
     font-size: 2.3rem;
     padding-left: 10px;
     font-family: "Kdam";
-    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.41);
+    
     display: flex;
     flex-direction: column;
     letter-spacing: 3px;
@@ -110,7 +110,7 @@ main {
     letter-spacing: 2px;
     font-family: "Kdam";
     padding-left: 10px;
-    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.41);
+    
 }
 .content01 h3 {
     margin: 0px;
@@ -187,7 +187,7 @@ main {
     flex-wrap: wrap;
     margin-top: 400px;
     font-family: "Kdam";
-    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.41);
+    
     color: white;
 }
 .content2 section {
@@ -245,7 +245,7 @@ footer h5 {
     color: #7A6A70;
     font-family: "Nanum";
     letter-spacing: 2px;
-    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.28);
+    
 }
 .fh5l {
     padding-left: 5px;
