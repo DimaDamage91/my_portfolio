@@ -278,17 +278,17 @@ footer h5 {
 }
 @media screen and (max-width: 1024px) {
     .content0 {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 }
 @media screen and (max-width: 768px) {
     .content0 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 @media screen and (max-width: 425px) {
     .content0 {
-        font-size: 1.3rem;
+        font-size: 1.0rem;
     }
     .content2 h3 {
        font-size: 20px; 
@@ -329,13 +329,13 @@ footer h5 {
 }
 @media screen and (max-width: 375px) {
     .content0 {
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
     
 }
 @media screen and (max-width: 320px) {
     .content0 {
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
     .content2 h3 {
         font-size: 17px; 
