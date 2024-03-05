@@ -1,0 +1,355 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+.back {
+    background-image: url(./Images/pexels-free-nature-stock-1376766.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@font-face {
+    font-family: "Kdam";
+    src: url(./Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf) format("woff2");
+}
+@font-face {
+    font-family: "Bebas";
+    src: url(./Bebas_Neue/BebasNeue-Regular.ttf) format("woff2");
+}
+@font-face {
+    font-family: "Nanum";
+    src: url(./Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf) format("woff2");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.headercontent1 {
+    z-index: 2;
+    margin-top: 4%;
+    padding-left: 10px;
+}
+.headercontent2 {
+    z-index: 2;
+    font-family: "Bebas";
+    letter-spacing: 2px;
+    margin-top: 4%;
+    padding-right: 10px;
+    
+}
+
+.headercontent1 img {
+    width: 3.8rem;
+    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.28);
+}
+.headercontent2 a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #cea2fd;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.41);
+} 
+.headercontent2 a:hover {
+    color: white;
+}
+.headercontent2 a:active {
+    color: #6f4685;
+    
+}
+/*Main*/
+
+main {
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 450px;
+}
+
+/*Content0*/
+.content0 {
+    color: white;
+    font-size: 4rem;
+    padding-left: 10px;
+    font-family: "Kdam";
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.41);
+    display: flex;
+    flex-direction: column;
+}
+.content0text {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.content0text div {
+    padding-right: 15px;
+    word-spacing: -15px;
+}
+.animated-text {
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+    animation-delay: 0.7s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*content01*/
+.content01 {
+    color: white;
+    margin-top: 500px;
+    letter-spacing: 2px;
+    font-family: "Kdam";
+    padding-left: 10px;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.41);
+}
+.content01 h3 {
+    margin: 0px;
+    font-size: 1.5vw;
+}
+/*content1*/
+.content1 {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.mi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button a {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Bebas";
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: inherit;
+}
+.button {
+    width: 70px;
+    border: 2px solid #645394;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #9e7bb5;
+    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.28);
+    color: white;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #9e7bb5;
+
+}
+.button:active {
+    background-color: #6f4685;
+    color: white;
+    border: 2px solid #392A48;
+}
+.imgp {
+    height: 70%;
+    width: 80%;
+    border-radius: 15px;
+    opacity: 0.9;
+    border: 2px solid #A9A9A9;
+    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.28);
+}
+
+/*content2*/
+.content2 h3 {
+    color: white;
+    margin: 5px;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+
+}
+.content2 a {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: "Bebas";
+}
+.content2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 400px;
+    font-family: "Kdam";
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.41);
+    color: white;
+}
+.content2 section {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid #645394;
+    border-radius: 5px;
+    background-color: #9e7bb5;
+    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.28);
+}
+.buttonsend {
+    border: 2px solid #645394;
+    border-radius: 20px;
+    padding: 10px 15px; 
+    width: 70px;
+    margin: 0 auto;
+    background-color: #9e7bb5;
+    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.28);
+    text-shadow: none;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: "Bebas";
+    color: white;
+}
+.buttonsend:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #9e7bb5;
+
+}
+.buttonsend:active {
+    background-color: #6f4685;
+    color: white;
+    border: 2px solid #392A48;
+}
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin: auto;
+    height: 200px;
+    align-items: center;
+    margin-top: 200px;
+}
+footer h5 {
+    color: #7A6A70;
+    font-family: "Nanum";
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.28);
+}
+.fh5l {
+    padding-left: 5px;
+}
+.fh5r {
+    padding-right: 5px;
+}
+
+/*Media*/
+@media screen and (max-width: 1024px) {
+    .content0 {
+        font-size: 50px;
+    }
+    .content2 h3 {
+       font-size: 23px; 
+    }
+    .content2 a {
+        font-size: 20px;
+    }
+    .content01 h3 {
+    font-size: 23px; 
+    }
+    footer {
+        margin-top: 50px;
+    }
+    .buttonsend a {
+        font-size: 20px;
+        font-family: "Bebas";
+    }
+}
+@media screen and (max-width: 1024px) {
+    .content0 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .content0 {
+        font-size: 30px;
+    }
+    .content2 h3 {
+       font-size: 20px; 
+    }
+    .content2 a {
+        font-size: 15px;
+    }
+    main {
+        margin-top: 100px;
+    }
+    .content01 {
+        margin-top: 150px;
+    }
+    .content2 {
+        margin-top: 150px;
+    }
+    .button a {
+        font-size: 15px;
+    }
+    .button {
+        padding: 8px 12px;
+    }
+    .buttonsend a {
+        font-size: 15px;
+    }
+    .buttonsend {
+        padding: 8px 12px;
+    }
+    .content01 h3 {
+        font-size: 20px; 
+    }
+    footer h5 {
+        font-size: 10px;
+    }
+    footer {
+        height: 100px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .content0 {
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .content2 h3 {
+        font-size: 17px; 
+     }
+     .content2 a {
+         font-size: 16px;
+     }
+     .button a {
+        font-size: 12px;
+    }
+    .button {
+        padding: 6px 8px;
+    }
+    .buttonsend a {
+        font-size: 12px;
+    }
+    .buttonsend {
+        padding: 6px 8px;
+    }
+    .content01 h3 {
+        font-size: 17px; 
+    }
+    .content0 {
+        font-size: 20px;
+    }
+}

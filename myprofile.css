@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Kdam";
+    src: url(./Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf) format("woff2");
+}
+@font-face {
+    font-family: "Bebas";
+    src: url(./Bebas_Neue/BebasNeue-Regular.ttf) format("woff2");
+}
+@font-face {
+    font-family: "Nanum";
+    src: url(./Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf) format("woff2");
+}
+body {
+   padding: 0;
+   margin: 0;
+   font-size: 16px;
+   background-color: #392A48;
+}
+main {
+    max-width: 1200px;
+    height: 90%;
+    min-height: 900px;
+    margin: 0 auto;
+    background-color: #645394;
+    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.28);
+}
+main h1 {
+    padding: 20px;
+    color: white;
+    font-family: "Kdam";
+    letter-spacing: 1px;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.28);
+}
+.text {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.28);
+}
+
+.text div {
+    display: flex;
+    font-size: 1em;
+}
+.text h3 {
+    font-family: "Kdam";
+    letter-spacing: 1px;
+}
+h4 {
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-family: "Nanum";
+    display: flex;
+    align-items: center;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    
+}
+.portfolioimg img {
+    max-width: 90%;
+    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.28);
+}
+.portfolioimg {
+    max-width: 500px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    display: inline-flex;
+    justify-content: center;
+    padding: 5px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    
+}
+.skills img {
+    
+}
