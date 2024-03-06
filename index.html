@@ -38,7 +38,7 @@
         <div class="content01">
             <h3>My Projects:</h3>
         </div>
-      <div class="content1">
+      <div class="content1" id="blockmi">
         <div class="mi">
           <img src="./Images/Unknown-1.jpeg" class="imgp">
          <div class="button">
@@ -60,30 +60,30 @@
       </div>
     
       <div class="content2">
-       <form action="./submission.html" method="POST">
-       <h3>Leave your personal information and I'll get back to you.</h3>
-       <section class="name">
-        <label for="nname"><a id="buttonsend">Name:</a></label>
-        <input type="text" name="nname" id="nname">
-       </section>
-       <section class="email">
-        <label for="mail"><a id="buttonsend">Email:</a></label>
-        <input type="text" name="mail" id="mail">
-       </section>
-       <section class="phone">
-        <label for="pphone"><a id="buttonsend">Phone:</a></label>
-        <input type="text" name="pphone" id="pphone" value="38(   )">
-       </section>
-       <section class="info">
-        <label for="iinfo"><a id="buttonsend">Message:</a></label>
-        <br>
-        <textarea id="iinfo" name="iinfo" rows="3" cols="30"></textarea>
-       </section>
-       <section class="buttonsend">
-       <a id="sendbutton">SEND</a>
-       </section>
-       </form>
-       </div>
+        <form id="myForm" action="./submission.html" method="POST">
+            <h3>Leave your personal information and I'll get back to you.</h3>
+            <section class="name">
+                <label for="nname"><a id="buttonsend">Name:</a></label>
+                <input type="text" name="nname" id="nname">
+            </section>
+            <section class="email">
+                <label for="mail"><a id="buttonsend">Email:</a></label>
+                <input type="text" name="mail" id="mail">
+            </section>
+            <section class="phone">
+                <label for="pphone"><a id="buttonsend">Phone:</a></label>
+                <input type="text" name="pphone" id="pphone" value="38(   )">
+            </section>
+            <section class="info">
+                <label for="iinfo"><a id="buttonsend">Message:</a></label>
+                <br>
+                <textarea id="iinfo" name="iinfo" rows="3" cols="30"></textarea>
+            </section>
+            <section class="buttonsend">
+                <a type="button" id="sendbutton">SEND</a>
+            </section>
+        </form>
+    </div>
      </main>
      <footer>
         <h5 class="fh5l">Made in Kyiv</h5>

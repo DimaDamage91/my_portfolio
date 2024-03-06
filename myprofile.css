@@ -23,6 +23,7 @@ main {
     margin: 0 auto;
     background-color: #645394;
     box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.28);
+    
 }
 main h1 {
     padding: 20px;
@@ -80,5 +81,8 @@ ul li {
 ul {
     margin: 0;
     padding: 0;
-    
+}
+.skills img {
+    opacity: 0.7;
+    padding-bottom: 10px;
 }
