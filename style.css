@@ -15,20 +15,8 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/*Mobile*/
-@media only screen and (max-width: 625px) {
-    .headercontent2 {
-        display: none;
-    }
-    #mobile {
-        display: flex;
-        margin-top: 4%;
-        padding-right: 15px;
-    }
-    .mobile img {
-        padding-right: 15px;
-    }
-}
+
+
 .mobile {
     display: none;
 }
@@ -413,4 +401,30 @@ footer h5 {
         font-size: 17px; 
     }
     
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 625px) {
+    .headercontent2 {
+        display: none;
+    }
+    #mobile {
+        display: flex;
+        margin-top: 4%;
+        padding-right: 15px;
+    }
+    .mobile img {
+        padding-right: 15px;
+    }
+    
+    header {
+        scroll-snap-align: none;
+    }
+    .content1 {
+        scroll-snap-align: none;
+    }
+    .content2 {
+        scroll-snap-align: none;
+    }
 }
