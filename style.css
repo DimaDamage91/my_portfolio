@@ -3,13 +3,43 @@ body {
     padding: 0px;
     font-size: 16px;
 }
+html {
+    overflow-y: scroll; 
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
 .back {
     background-image: url(./Images/pexels-free-nature-stock-1376766.jpg);
     min-height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+}
+/*Mobile*/
+@media only screen and (max-width: 625px) {
+    .headercontent2 {
+        display: none;
+    }
+    #mobile {
+        display: flex;
+        margin-top: 4%;
+        padding-right: 15px;
+    }
+    .mobile img {
+        padding-right: 15px;
+    }
+}
+.mobile {
+    display: none;
+}
+header {
+    scroll-snap-align: center;
+}
+.content1 {
+    scroll-snap-align: center;
+}
+.content2 {
+    scroll-snap-align: center;
 }
 @font-face {
     font-family: "Kdam";
@@ -45,8 +75,7 @@ header {
     font-family: "Star";
     letter-spacing: 2px;
     margin-top: 4%;
-    padding-right: 10px;
-    
+    padding-right: 15px;
 }
 
 .headercontent1 img {
@@ -57,10 +86,12 @@ header {
     font-size: 1.4rem;
     text-decoration: none;
     color: #cea2fd;
-    
+    padding-right: 5px;
+    word-spacing: -7px;
 } 
 .headercontent2 a:hover {
     color: white;
+    cursor: pointer;
 }
 .headercontent2 a:active {
     color: #6f4685;
@@ -122,6 +153,7 @@ main {
 .content01 h3 {
     margin: 0px;
     font-size: 1.5vw;
+    padding-top: 20px;
 }
 /*content1*/
 .content1 {
@@ -178,10 +210,10 @@ main {
 /*content2*/
 .content2 h3 {
     color: white;
-    margin: 5px;
+    margin: 10px;
     font-size: 1.5vw;
     letter-spacing: 2px;
-
+    
 }
 .content2 a {
     font-size: 20px;
