@@ -339,18 +339,18 @@ footer h5 {
     }
 }
 @media screen and (max-width: 425px) {
-    /*main {
+    main {
         margin-top: 100px;
-    }*/
+    }
     .content0 {
         font-size: 1.0rem;
     }
-    /*.content2 {
+    .content2 {
         margin-top: 100px;
-    }*/
-    /*.content01 {
+    }
+    .content01 {
         margin-top: 100px;
-    }*/
+    }
     .content2 h3 {
        font-size: 20px; 
     }
@@ -428,7 +428,7 @@ footer h5 {
         padding-right: 15px;
     }
     
-    /*header {
+    header {
         scroll-snap-align: none;
     }
     .content0 {
@@ -439,5 +439,5 @@ footer h5 {
     }
     .content2 {
         scroll-snap-align: none;
-    }*/
+    }
 }
